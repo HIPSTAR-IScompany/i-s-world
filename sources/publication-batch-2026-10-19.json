@@ -38,7 +38,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/philosophy/index.md",
@@ -53,7 +53,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/worlds/index.md",
@@ -68,7 +68,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/practice/index.md",
@@ -90,7 +90,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/operations/provenance/README.md",
@@ -112,7 +112,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/operations/publication-policy.md",
@@ -134,7 +134,9 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     }
-  ]
+  ],
+  "source_commit": "fb7835fbb8b12ac615fbed069789b77a03ccabf8",
+  "source_ci": "https://github.com/HIPSTAR-IScompany/i-s-world/actions/runs/39250033746"
 }
