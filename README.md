@@ -1,35 +1,33 @@
 # Infinite Synthesis World
 
-状態: `DOCUSAURUS BUILD READY / NOT DEPLOYED / CONTENT NOT MIGRATED`
+World・意味・体験・実践を、日本語正本とen-US解説で読む文書サイトです。[English](README.en-US.md)。
 
-World、Narrative、Blog、Aboutと将来のPatron導線を公開するsiteです。Target URL: `https://i-s.world/`
+## 読み始める
 
-横断規約の正本は[ZeroRoomLab-manifest](https://github.com/saitoomituru/ZeroRoomLab-manifest)、component実装正本は各component repositoryです。本repositoryはWorld／Narrativeの公開体験、Blog、Aboutのdocs projectionです。
+[日本語の入口](docs/start/index.md)／[en-USの入口](i18n/en/docusaurus-plugin-content-docs/current/start/index.md)。著者: 齋藤みつるSaitooMituru-Fusamofu-ふさもふ。公開主体: HIPSTAR-IScompany。
 
-Patronは旦那さんとの方針決定待ちで、HIPSTAR domainへの外部導線候補です。この保留はsite bootstrapを阻害しません。MAGIは公開`main`採用。Docusaurusは実装済み（`npm ci && npm run build`が独立repositoryで再現可能）。Sakura deployは未実装（Q Atlantis #23、CIはbuild jobのみ）、content migrationは未着手（#29）です。
+2026-10-19の初回文書batchを反映。状態はPARTIAL_PROJECTIONで、旧本文・assetの全量移植は未完了です。Git／build／Sakura公開／DOI発行を分けて記録します。公開対象URLはCIのPUBLICATION_URLで設定します。
 
-Docusaurus configはdocs単一instanceのみ配線した。`about/`／`blog/`plugin配線はQ Atlantis #29の承認batch通過後、`patron/`はPatron行先の方針決定後に着手する。既存のplaceholder README(`about/README.md`／`blog/README.md`／`patron/README.md`)はそのまま未配線で保持している。
+## 正本と来歴
 
-code等はApache-2.0、一般文書・図・FlavorはCC BY 4.0を既定候補とします。
+[Manifest](https://github.com/saitoomituru/ZeroRoomLab-manifest)を横断規約・研究原典、[SphereOS-Atlantis](https://github.com/saitoomituru/SphereOS-Atlantis)と各componentを実装正本として保持します。Fold NICの確認済み実装正本は[saitoomituru/fold-nic](https://github.com/saitoomituru/fold-nic)。
 
-## local preview
+[source map](sources/publication-batch-2026-10-19.json)／[日本語・翻訳方針](docs/operations/publication-policy.md)／[移植状態](migration/README.md)。MAGI採用channelはmain、receiptには解決したexact SHAを記録します。Atlantisのfeature／dev branchは採用していません。
+
+## buildとpreview
 
 ```console
 npm ci
 npm start
-```
-
-`http://localhost:3000/` でplaceholder siteを確認できます。
-
-## build と検査
-
-```console
-npm ci
 npm run typecheck
 npm run check:domain-hardcode
-SITE_ID=i-s-world PUBLICATION_URL=https://i-s.world npm run build
-SITE_ID=i-s-world PUBLICATION_URL=https://i-s.world npm run check:seo
-SITE_ID=i-s-world npm run receipt:build
+npm run build
+npm run check:seo
+npm run receipt:build
 ```
 
-`SITE_ID` / `PUBLICATION_URL` は`.github/workflows/build.yml`のCI既定値と一致させる。config直書きにせず、常にenv経由で注入する。
+buildは日本語とen-USを生成します。prebuildで日英pair・出典を検査します。production deployは未実装のまま既存Issue #2で追跡し、Sakura設定やDNS値を推測しません。
+
+## license
+
+文書はCC BY 4.0、code／workflow／validatorはApache-2.0。個別credit・第三者licenseは優先します。root LICENSEのみを根拠に文章を再licenseしません。詳細は[LICENSE-POLICY.ja.md](LICENSE-POLICY.ja.md)。

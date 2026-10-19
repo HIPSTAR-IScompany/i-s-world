@@ -1,0 +1,140 @@
+{
+  "schema": "is-documentation-projection/1",
+  "batch": "2026-10-19",
+  "repository": "HIPSTAR-IScompany/i-s-world",
+  "site_id": "i-s-world",
+  "canonical_language": "ja-JP",
+  "reference_locale": "en-US",
+  "authorization": "User instruction 2026-10-19T20:55:27+09:00",
+  "scope": "World・意味・体験・実践",
+  "source_pins": {
+    "manifest": "139cc619fcdd62f254074e655ad3fb04e190322d",
+    "atlantis": "bd8c7a807d5f016eb244c9ffbf39a62cee5e2d65",
+    "nic": "44b5d8bb7525d317def6501cc3a5f0951df2e1bc",
+    "q": "39a67f2ed68c3cf826493c7f97462c1552c943dc"
+  },
+  "mode": "edited-explanation-original-sources-retained",
+  "history_extraction": "NOT_PERFORMED",
+  "deployment": "NOT_VERIFIED",
+  "doi": "NOT_ISSUED",
+  "pairs": [
+    {
+      "japanese": "docs/start/index.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/start/index.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/philosophy/gaming-cosmology.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/philosophy/gaming-cosmology.ja.md",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/philosophy/spiritual-and-infoton-engineering.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/philosophy/spiritual-and-infoton-engineering.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "prepared"
+    },
+    {
+      "japanese": "docs/philosophy/index.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/philosophy/index.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/philosophy/spiritual-and-infoton-engineering.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/philosophy/spiritual-and-infoton-engineering.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "prepared"
+    },
+    {
+      "japanese": "docs/worlds/index.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/worlds/index.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/philosophy/gaming-cosmology.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/philosophy/gaming-cosmology.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "prepared"
+    },
+    {
+      "japanese": "docs/practice/index.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/practice/index.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/philosophy/gaming-cosmology.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/philosophy/gaming-cosmology.ja.md",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/philosophy/spiritual-and-infoton-engineering.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/philosophy/spiritual-and-infoton-engineering.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "prepared"
+    },
+    {
+      "japanese": "docs/operations/provenance/README.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/operations/provenance/README.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/operations/documentation-maintenance-policy.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/operations/documentation-maintenance-policy.ja.md",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/operations/default-language-and-translation-policy.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/operations/default-language-and-translation-policy.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "prepared"
+    },
+    {
+      "japanese": "docs/operations/publication-policy.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/operations/publication-policy.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/operations/documentation-maintenance-policy.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/operations/documentation-maintenance-policy.ja.md",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "139cc619fcdd62f254074e655ad3fb04e190322d",
+          "path": "docs/operations/default-language-and-translation-policy.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/139cc619fcdd62f254074e655ad3fb04e190322d/docs/operations/default-language-and-translation-policy.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "prepared"
+    }
+  ]
+}

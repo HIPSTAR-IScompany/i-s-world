@@ -28,7 +28,11 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'ja',
-    locales: ['ja'],
+    locales: ['ja', 'en'],
+    localeConfigs: {
+      ja: { label: '日本語', htmlLang: 'ja-JP' },
+      en: { label: 'English', htmlLang: 'en-US' },
+    },
   },
 
   headTags: [
@@ -44,7 +48,7 @@ const config: Config = {
         url: `${PUBLICATION_URL}/`,
         description:
           'World／Narrative／Blog／About documentation projectionの入口。研究途中の内部仕様は正本化しない。',
-        inLanguage: 'ja',
+        inLanguage: ['ja-JP', 'en-US'],
       }),
     },
   ],
@@ -76,19 +80,19 @@ const config: Config = {
     mermaid: {
       theme: { light: 'neutral', dark: 'forest' },
     },
-    htmlLang: 'ja',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     metadata: [
-      { name: 'author', content: 'HIPSTAR-IScompany' },
+      { name: 'author', content: '齋藤みつるSaitooMituru-Fusamofu-ふさもふ' },
       { property: 'og:site_name', content: 'Infinite Synthesis World' },
     ],
     navbar: {
       title: 'Infinite Synthesis World',
       items: [
+        { type: 'localeDropdown', position: 'right' },
         {
           href: 'https://github.com/HIPSTAR-IScompany/i-s-world',
           label: 'GitHub',
@@ -99,7 +103,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} HIPSTAR-IScompany. Content not migrated (site_id: ${SITE_ID}).`,
+      copyright: `Copyright © ${new Date().getFullYear()} 齋藤みつるSaitooMituru-Fusamofu-ふさもふ / HIPSTAR-IScompany. Documentation CC BY 4.0; code Apache-2.0. Partial projection (site_id: ${SITE_ID}).`,
     },
     prism: {
       theme: prismThemes.github,
